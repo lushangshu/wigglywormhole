@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC0539D1A0D014B002E303E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC0539C1A0D014B002E303E /* MainMenu.m */; };
+		CCC053A01A0D36C9002E303E /* MediumMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC0539F1A0D36C9002E303E /* MediumMode.m */; };
+		CCC053A31A0D36D7002E303E /* HardMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC053A21A0D36D7002E303E /* HardMode.m */; };
+		CCC053D81A0D86D9002E303E /* ScoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC053D71A0D86D9002E303E /* ScoreTableView.m */; };
+		CCC053DB1A0D891B002E303E /* PlayerDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC053DA1A0D891B002E303E /* PlayerDetail.m */; };
+		CCC053DE1A0D8CC8002E303E /* ScoreViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC053DD1A0D8CC8002E303E /* ScoreViewDelegate.m */; };
+		CCD0FC151A0816A5008C6C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD0FC141A0816A5008C6C29 /* main.m */; };
+		CCD0FC181A0816A5008C6C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD0FC171A0816A5008C6C29 /* AppDelegate.m */; };
+		CCD0FC1B1A0816A5008C6C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD0FC1A1A0816A5008C6C29 /* ViewController.m */; };
+		CCD0FC1E1A0816A5008C6C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC1C1A0816A5008C6C29 /* Main.storyboard */; };
+		CCD0FC201A0816A5008C6C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC1F1A0816A5008C6C29 /* Images.xcassets */; };
+		CCD0FC231A0816A5008C6C29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC211A0816A5008C6C29 /* LaunchScreen.xib */; };
+		CCD0FC2F1A0816A5008C6C29 /* WigglywormholeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD0FC2E1A0816A5008C6C29 /* WigglywormholeTests.m */; };
+		CCD0FC3D1A081785008C6C29 /* emptycell.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC381A081785008C6C29 /* emptycell.png */; };
+		CCD0FC3E1A081785008C6C29 /* wormface.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC391A081785008C6C29 /* wormface.png */; };
+		CCD0FC3F1A081785008C6C29 /* shroomcell.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC3A1A081785008C6C29 /* shroomcell.png */; };
+		CCD0FC401A081785008C6C29 /* snakecell.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC3B1A081785008C6C29 /* snakecell.png */; };
+		CCD0FC411A081785008C6C29 /* wormholecell.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD0FC3C1A081785008C6C29 /* wormholecell.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD0FC291A0816A5008C6C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD0FC071A0816A5008C6C29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD0FC0E1A0816A5008C6C29;
+			remoteInfo = Wigglywormhole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC0539B1A0D014B002E303E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		CCC0539C1A0D014B002E303E /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		CCC0539E1A0D36C9002E303E /* MediumMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediumMode.h; sourceTree = "<group>"; };
+		CCC0539F1A0D36C9002E303E /* MediumMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediumMode.m; sourceTree = "<group>"; };
+		CCC053A11A0D36D7002E303E /* HardMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardMode.h; sourceTree = "<group>"; };
+		CCC053A21A0D36D7002E303E /* HardMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardMode.m; sourceTree = "<group>"; };
+		CCC053D61A0D86D9002E303E /* ScoreTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableView.h; sourceTree = "<group>"; };
+		CCC053D71A0D86D9002E303E /* ScoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableView.m; sourceTree = "<group>"; };
+		CCC053D91A0D891B002E303E /* PlayerDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetail.h; sourceTree = "<group>"; };
+		CCC053DA1A0D891B002E303E /* PlayerDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetail.m; sourceTree = "<group>"; };
+		CCC053DC1A0D8CC8002E303E /* ScoreViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewDelegate.h; sourceTree = "<group>"; };
+		CCC053DD1A0D8CC8002E303E /* ScoreViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewDelegate.m; sourceTree = "<group>"; };
+		CCD0FC0F1A0816A5008C6C29 /* Wigglywormhole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wigglywormhole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD0FC131A0816A5008C6C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD0FC141A0816A5008C6C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD0FC161A0816A5008C6C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD0FC171A0816A5008C6C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD0FC191A0816A5008C6C29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD0FC1A1A0816A5008C6C29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD0FC1D1A0816A5008C6C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD0FC1F1A0816A5008C6C29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCD0FC221A0816A5008C6C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCD0FC281A0816A5008C6C29 /* WigglywormholeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigglywormholeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD0FC2D1A0816A5008C6C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD0FC2E1A0816A5008C6C29 /* WigglywormholeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WigglywormholeTests.m; sourceTree = "<group>"; };
+		CCD0FC381A081785008C6C29 /* emptycell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptycell.png; path = ../../../../../Downloads/icons/emptycell.png; sourceTree = "<group>"; };
+		CCD0FC391A081785008C6C29 /* wormface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wormface.png; path = ../../../../../Downloads/icons/wormface.png; sourceTree = "<group>"; };
+		CCD0FC3A1A081785008C6C29 /* shroomcell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shroomcell.png; path = ../../../../../Downloads/icons/shroomcell.png; sourceTree = "<group>"; };
+		CCD0FC3B1A081785008C6C29 /* snakecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snakecell.png; path = ../../../../../Downloads/icons/snakecell.png; sourceTree = "<group>"; };
+		CCD0FC3C1A081785008C6C29 /* wormholecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wormholecell.png; path = ../../../../../Downloads/icons/wormholecell.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD0FC0C1A0816A5008C6C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD0FC251A0816A5008C6C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD0FC061A0816A5008C6C29 = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC111A0816A5008C6C29 /* Wigglywormhole */,
+				CCD0FC2B1A0816A5008C6C29 /* WigglywormholeTests */,
+				CCD0FC101A0816A5008C6C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD0FC101A0816A5008C6C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC0F1A0816A5008C6C29 /* Wigglywormhole.app */,
+				CCD0FC281A0816A5008C6C29 /* WigglywormholeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD0FC111A0816A5008C6C29 /* Wigglywormhole */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC161A0816A5008C6C29 /* AppDelegate.h */,
+				CCD0FC171A0816A5008C6C29 /* AppDelegate.m */,
+				CCC053DC1A0D8CC8002E303E /* ScoreViewDelegate.h */,
+				CCC053DD1A0D8CC8002E303E /* ScoreViewDelegate.m */,
+				CCD0FC191A0816A5008C6C29 /* ViewController.h */,
+				CCD0FC1A1A0816A5008C6C29 /* ViewController.m */,
+				CCC0539E1A0D36C9002E303E /* MediumMode.h */,
+				CCC0539F1A0D36C9002E303E /* MediumMode.m */,
+				CCC053A11A0D36D7002E303E /* HardMode.h */,
+				CCC053A21A0D36D7002E303E /* HardMode.m */,
+				CCC0539B1A0D014B002E303E /* MainMenu.h */,
+				CCC0539C1A0D014B002E303E /* MainMenu.m */,
+				CCC053D61A0D86D9002E303E /* ScoreTableView.h */,
+				CCC053D71A0D86D9002E303E /* ScoreTableView.m */,
+				CCC053D91A0D891B002E303E /* PlayerDetail.h */,
+				CCC053DA1A0D891B002E303E /* PlayerDetail.m */,
+				CCD0FC1C1A0816A5008C6C29 /* Main.storyboard */,
+				CCD0FC1F1A0816A5008C6C29 /* Images.xcassets */,
+				CCD0FC211A0816A5008C6C29 /* LaunchScreen.xib */,
+				CCD0FC121A0816A5008C6C29 /* Supporting Files */,
+			);
+			path = Wigglywormhole;
+			sourceTree = "<group>";
+		};
+		CCD0FC121A0816A5008C6C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC131A0816A5008C6C29 /* Info.plist */,
+				CCD0FC381A081785008C6C29 /* emptycell.png */,
+				CCD0FC391A081785008C6C29 /* wormface.png */,
+				CCD0FC3A1A081785008C6C29 /* shroomcell.png */,
+				CCD0FC3B1A081785008C6C29 /* snakecell.png */,
+				CCD0FC3C1A081785008C6C29 /* wormholecell.png */,
+				CCD0FC141A0816A5008C6C29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD0FC2B1A0816A5008C6C29 /* WigglywormholeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC2E1A0816A5008C6C29 /* WigglywormholeTests.m */,
+				CCD0FC2C1A0816A5008C6C29 /* Supporting Files */,
+			);
+			path = WigglywormholeTests;
+			sourceTree = "<group>";
+		};
+		CCD0FC2C1A0816A5008C6C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0FC2D1A0816A5008C6C29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD0FC0E1A0816A5008C6C29 /* Wigglywormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD0FC321A0816A5008C6C29 /* Build configuration list for PBXNativeTarget "Wigglywormhole" */;
+			buildPhases = (
+				CCD0FC0B1A0816A5008C6C29 /* Sources */,
+				CCD0FC0C1A0816A5008C6C29 /* Frameworks */,
+				CCD0FC0D1A0816A5008C6C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wigglywormhole;
+			productName = Wigglywormhole;
+			productReference = CCD0FC0F1A0816A5008C6C29 /* Wigglywormhole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD0FC271A0816A5008C6C29 /* WigglywormholeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD0FC351A0816A5008C6C29 /* Build configuration list for PBXNativeTarget "WigglywormholeTests" */;
+			buildPhases = (
+				CCD0FC241A0816A5008C6C29 /* Sources */,
+				CCD0FC251A0816A5008C6C29 /* Frameworks */,
+				CCD0FC261A0816A5008C6C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD0FC2A1A0816A5008C6C29 /* PBXTargetDependency */,
+			);
+			name = WigglywormholeTests;
+			productName = WigglywormholeTests;
+			productReference = CCD0FC281A0816A5008C6C29 /* WigglywormholeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD0FC071A0816A5008C6C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = lushangshu;
+				TargetAttributes = {
+					CCD0FC0E1A0816A5008C6C29 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CCD0FC271A0816A5008C6C29 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CCD0FC0E1A0816A5008C6C29;
+					};
+				};
+			};
+			buildConfigurationList = CCD0FC0A1A0816A5008C6C29 /* Build configuration list for PBXProject "Wigglywormhole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD0FC061A0816A5008C6C29;
+			productRefGroup = CCD0FC101A0816A5008C6C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD0FC0E1A0816A5008C6C29 /* Wigglywormhole */,
+				CCD0FC271A0816A5008C6C29 /* WigglywormholeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD0FC0D1A0816A5008C6C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0FC411A081785008C6C29 /* wormholecell.png in Resources */,
+				CCD0FC401A081785008C6C29 /* snakecell.png in Resources */,
+				CCD0FC1E1A0816A5008C6C29 /* Main.storyboard in Resources */,
+				CCD0FC231A0816A5008C6C29 /* LaunchScreen.xib in Resources */,
+				CCD0FC3E1A081785008C6C29 /* wormface.png in Resources */,
+				CCD0FC201A0816A5008C6C29 /* Images.xcassets in Resources */,
+				CCD0FC3D1A081785008C6C29 /* emptycell.png in Resources */,
+				CCD0FC3F1A081785008C6C29 /* shroomcell.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD0FC261A0816A5008C6C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD0FC0B1A0816A5008C6C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC053A01A0D36C9002E303E /* MediumMode.m in Sources */,
+				CCC053DB1A0D891B002E303E /* PlayerDetail.m in Sources */,
+				CCD0FC1B1A0816A5008C6C29 /* ViewController.m in Sources */,
+				CCD0FC181A0816A5008C6C29 /* AppDelegate.m in Sources */,
+				CCD0FC151A0816A5008C6C29 /* main.m in Sources */,
+				CCC0539D1A0D014B002E303E /* MainMenu.m in Sources */,
+				CCC053D81A0D86D9002E303E /* ScoreTableView.m in Sources */,
+				CCC053DE1A0D8CC8002E303E /* ScoreViewDelegate.m in Sources */,
+				CCC053A31A0D36D7002E303E /* HardMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD0FC241A0816A5008C6C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0FC2F1A0816A5008C6C29 /* WigglywormholeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD0FC2A1A0816A5008C6C29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD0FC0E1A0816A5008C6C29 /* Wigglywormhole */;
+			targetProxy = CCD0FC291A0816A5008C6C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD0FC1C1A0816A5008C6C29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD0FC1D1A0816A5008C6C29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD0FC211A0816A5008C6C29 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD0FC221A0816A5008C6C29 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD0FC301A0816A5008C6C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD0FC311A0816A5008C6C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD0FC331A0816A5008C6C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wigglywormhole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCD0FC341A0816A5008C6C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wigglywormhole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CCD0FC361A0816A5008C6C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WigglywormholeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wigglywormhole.app/Wigglywormhole";
+			};
+			name = Debug;
+		};
+		CCD0FC371A0816A5008C6C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WigglywormholeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wigglywormhole.app/Wigglywormhole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD0FC0A1A0816A5008C6C29 /* Build configuration list for PBXProject "Wigglywormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD0FC301A0816A5008C6C29 /* Debug */,
+				CCD0FC311A0816A5008C6C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD0FC321A0816A5008C6C29 /* Build configuration list for PBXNativeTarget "Wigglywormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD0FC331A0816A5008C6C29 /* Debug */,
+				CCD0FC341A0816A5008C6C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD0FC351A0816A5008C6C29 /* Build configuration list for PBXNativeTarget "WigglywormholeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD0FC361A0816A5008C6C29 /* Debug */,
+				CCD0FC371A0816A5008C6C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD0FC071A0816A5008C6C29 /* Project object */;
+}
